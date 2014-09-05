@@ -1,6 +1,6 @@
 # Social Wall
 
-A Ruby based web application built for beginners that highlights essential web software topics like(but not limited to):
+A small web application built for beginners that highlights some essential web programming topics. 
 
 - The HTTP Request Response life cycle
 - Ruby's [Sinatra][sinatra] web application framework

@@ -17,7 +17,7 @@ Steps to get this code working.
 1. Create a new workspace and into that workspace, 'Clone From Url' https://github.com/codeunion/social-wall
 1. 'Start Editing' your new workspace
 1. Open a new terminal window, verify you are in your 'workspace' directory.
-  ```shell
+  ```
   pwd
   ls
   ```
@@ -25,12 +25,12 @@ Steps to get this code working.
 
 1. Install the application's gems.
 
-  ```shell
+  ```
   bundle install --without production
   ```
 1. Run the application
 
-  ```shell
+  ```
   ruby hello.rb -p $PORT -o $IP
   ```
 1. Visit your application on the internet.

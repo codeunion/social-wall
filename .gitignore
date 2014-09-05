@@ -1,0 +1,72 @@
+## Specific to Our Application:
+*.db
+.env
+
+## Specific to Cloud9 IDE - http://c9.io
+.c9revisions
+.c9
+
+## Specific to Ruby:
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalisation:
+/.bundle/
+/lib/bundler/man/
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+## Specific to Mac OS X:
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+## Specific to Windows:
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk

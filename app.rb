@@ -1,7 +1,7 @@
-require 'sinatra'     # Load the Sinatra web framework
-require 'data_mapper' # Load the DataMapper database library
+require "sinatra"     # Load the Sinatra web framework
+require "data_mapper" # Load the DataMapper database library
 
-require_relative 'database_setup'
+require "./database_setup"
 
 class Message
   include DataMapper::Resource

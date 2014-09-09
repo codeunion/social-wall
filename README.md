@@ -72,12 +72,26 @@ Visit the root `/` of your application, `https://social-wall-c9-yourusername.c9.
 
 ## Social Wall Overview
 
+Run the application inside the cloud9 ide.
 
+```shell
+  ruby app.rb -p $PORT -o $IP
+```
+
+Watch the Screencast, explore the nature of visiting the 'root' of the application and creating Message records by making `POST` requests to `/messages`
 
 ## Deploying to Heroku
 
-- configure [Heroku][heroku] command line tools
+- make an account at [heroku][heroku]
+- open Social Wall in the Cloud9 IDE
+- watch the screencast, create a new heroku application and deploy your Social Wall app.
 
+```ruby
+  heroku create <somenewappname>
+  git push heroku master
+```
+
+Visit http://somenewappname.herokuapp.com in a web browser.
 
 
 [sinatra]:http://www.sinatrarb.com/

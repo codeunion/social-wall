@@ -1,0 +1,22 @@
+<form id="message-form" method="POST" action="/messages">
+  <textarea id="message-body" name="body" placeholder="Enter a message here."></textarea>
+  <button type="submit">Post Message</button>
+</form>
+<% if messages.empty? %>
+  <h2>Sorry, no messages. :(</h2>
+<% else %>
+  <h2>Messages</h2>
+  <ol class="message-list">
+    <% messages.each do |message| %>
+      <li>
+        <div class="message-body">
+          <%= message.body %>
+        </div>
+        <div class="message-timestamp">
+          Posted on <%= message.created_at.strftime("%B %d, %Y at %l:%M%p") %>
+        </div>
+      </li>
+    <% end %>
+  </ol>
+<% end %>
+

@@ -1,6 +1,6 @@
 # Social Wall
 
-A small web application built for beginners that highlights some essential web programming topics. 
+A small web application built for beginners that highlights some essential web programming topics.
 
 - The HTTP Request Response life cycle
 - Ruby's [Sinatra][sinatra] web application framework
@@ -10,6 +10,12 @@ A small web application built for beginners that highlights some essential web p
 - Deploying an Application to Heroku
 
 The following video tutorials are all based the code in this repository being deployed into the Cloud9 integrated development environment.  It is important to use terminal commands as they are written in this readme.  
+
+## Social Wall Setup
+
+[ScreenCast on setting up Social-Wall][social wall screencast]
+
+[![https://www.youtube.com/watch?v=0s9shJ6XCjs](http://cl.ly/image/39173l2Y1y2s/Image%202014-09-08%20at%202.40.18%20PM.png)](https://www.youtube.com/watch?v=0s9shJ6XCjs)
 
 Steps to get this code working.
 
@@ -50,4 +56,30 @@ Steps to get this code working.
 
   https://your-application-c9-yourusername.c9.io/
 
+
+## The Request Response Lifecycle
+
+Let's look at the relationship between the server-side ruby code we've written in `hello.rb` and our available `server endpoints` like `/waffles` or `/waffles/chocolate`
+
+Run the application inside the cloud9 ide.
+
+```shell
+  ruby hello.rb -p $PORT -o $IP
+```
+
+Visit the root `/` of your application, `https://social-wall-c9-yourusername.c9.io/` and watch the screencast.
+
+
+## Social Wall Overview
+
+
+
+## Deploying to Heroku
+
+- configure [Heroku][heroku] command line tools
+
+
+
 [sinatra]:http://www.sinatrarb.com/
+[social wall screencast]:https://www.youtube.com/watch?v=0s9shJ6XCjs
+[heroku]:https://www.heroku.com/

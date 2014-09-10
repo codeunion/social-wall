@@ -85,7 +85,7 @@ Run the application inside the cloud9 ide.
 - Watch the screencast, create a new heroku application and deploy your own Social Wall app.
 
 
-[![http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png](http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png)](https://www.youtube.com/watch?v=wbg-u3dVYfE&list=UUPvMCtYdnZRNiDZTqD_yXVQ)
+[![http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png](http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png)](https://www.youtube.com/embed/wbg-u3dVYfE?vq=hd1080)
 ```ruby
   heroku create
   git push heroku master
@@ -97,9 +97,9 @@ Visit your newly created application in a web browser.
 
 
 [sinatra]:http://www.sinatrarb.com/
-[social wall screencast]:https://www.youtube.com/watch?v=0s9shJ6XCjs
-[http screencast]:https://www.youtube.com/watch?v=8I7bs9W1t_M&feature=youtu.be
+[social wall screencast]:https://www.youtube.com/embed/0s9shJ6XCjs?vq=hd1080
+[http screencast]:https://www.youtube.com/embed/8I7bs9W1t_M?vq=hd1080
 [heroku]:https://www.heroku.com/
 [cloud9]:https://c9.io/
-[overview screencast]:https://www.youtube.com/watch?v=NWorVNepf3A&list=UUPvMCtYdnZRNiDZTqD_yXVQ
-[deploy to heroku]:https://www.youtube.com/watch?v=wbg-u3dVYfE&list=UUPvMCtYdnZRNiDZTqD_yXVQ
+[overview screencast]:https://www.youtube.com/embed/NWorVNepf3A?vq=hd1080
+[deploy to heroku]:https://www.youtube.com/embed/wbg-u3dVYfE?vq=hd1080

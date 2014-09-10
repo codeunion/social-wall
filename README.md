@@ -17,7 +17,7 @@ Please use terminal commands as they are written and used in the screencasts.
 
 [Social Wall screencast][social wall screencast] will orient you on how to setup the code in the CLoud9 ide.
 
-[![https://www.youtube.com/watch?v=0s9shJ6XCjs](http://cl.ly/image/39173l2Y1y2s/Image%202014-09-08%20at%202.40.18%20PM.png)](https://www.youtube.com/watch?v=0s9shJ6XCjs)
+[![https://www.youtube.com/watch?v=0s9shJ6XCjs](http://cl.ly/image/39173l2Y1y2s/Image%202014-09-08%20at%202.40.18%20PM.png)](https://www.youtube.com/embed/0s9shJ6XCjs?vq=hd1080)
 
 Steps to get this application running.
 
@@ -53,7 +53,7 @@ Steps to get this application running.
 
 Let's look at the relationship between the server-side ruby code we've written in `hello.rb` and our available 'server endpoints' like `/waffles` or `/waffles/chocolate` by watching a [screencast][http screencast]
 
-[![http://cl.ly/image/0A3u03133i0J/Image%202014-09-09%20at%207.18.15%20PM.png](http://cl.ly/image/0A3u03133i0J/Image%202014-09-09%20at%207.18.15%20PM.png)](https://www.youtube.com/watch?v=8I7bs9W1t_M&feature=youtu.be)
+[![http://cl.ly/image/0A3u03133i0J/Image%202014-09-09%20at%207.18.15%20PM.png](http://cl.ly/image/0A3u03133i0J/Image%202014-09-09%20at%207.18.15%20PM.png)](https://www.youtube.com/embed/8I7bs9W1t_M?vq=hd1080)
 
 Run the application inside the cloud9 ide.
 
@@ -68,7 +68,7 @@ Visit the root `/` of your application, `https://social-wall-c9-yourusername.c9.
 
 [Watch the Screencast][overview screencast], explore the nature of visiting the 'root' of the application and creating Message records by making `POST` requests to `/messages`
 
-[![http://cl.ly/image/0b0x1g3m292c/Image%202014-09-09%20at%203.00.02%20PM.png](http://cl.ly/image/0b0x1g3m292c/Image%202014-09-09%20at%203.00.02%20PM.png)](https://www.youtube.com/watch?v=NWorVNepf3A&list=UUPvMCtYdnZRNiDZTqD_yXVQ)
+[![http://cl.ly/image/0b0x1g3m292c/Image%202014-09-09%20at%203.00.02%20PM.png](http://cl.ly/image/0b0x1g3m292c/Image%202014-09-09%20at%203.00.02%20PM.png)](https://www.youtube.com/embed/NWorVNepf3A?vq=hd1080)
 
 Run the application inside the cloud9 ide.
 

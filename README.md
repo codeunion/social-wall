@@ -57,9 +57,9 @@ Let's look at the relationship between the server-side Ruby code we've written i
 
 1. Run the application inside the Cloud9 IDE.
 
-```shell
+  ```shell
   ruby hello.rb -p $PORT -o $IP
-```
+  ```
 
 1. Visit the root `/` of your application, `https://social-wall-c9-yourusername.c9.io/` and watch the screencast.
 
@@ -80,18 +80,18 @@ Run the application inside the Cloud9 IDE.
 
 [Watch the screencast][deploy to heroku]
 
-1. Make an account at [heroku][heroku].
+1. Make an account at [Heroku][heroku].
 1. Open Social Wall in the Cloud9 IDE.
 1. Watch the screencast, create a new Heroku application and deploy your own Social Wall app.
 
 
-[![http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png](http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png)](https://www.youtube.com/embed/wbg-u3dVYfE?vq=hd1080)
-```ruby
+  [![http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png](http://cl.ly/image/3s1H3w2M2n46/Image%202014-09-09%20at%202.31.33%20PM.png)](https://www.youtube.com/embed/wbg-u3dVYfE?vq=hd1080)
+  ```ruby
   heroku create
   git push heroku master
   heroku addons:add heroku-postgresql:hobby-dev
   heroku domains
-```
+  ```
 
 1. Visit your newly created application in a web browser.
 

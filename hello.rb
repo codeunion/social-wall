@@ -18,7 +18,7 @@ end
 
 get("/waffles/chocolate") do
   html = "<h1>Chocolate waffles: more delicious.</h1>"
-  html.concat("<p>Don't belive me?!</p>")
+  html.concat("<p>Don't believe me?!</p>")
 
   body(html)
 end

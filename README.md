@@ -95,6 +95,31 @@ Run the application inside the cloud9 ide.
 
 Visit your newly created application in a web browser.
 
+![http://cl.ly/image/3q2J2N0o1I34/Image%202014-09-23%20at%202.52.59%20PM.png](http://cl.ly/image/3q2J2N0o1I34/Image%202014-09-23%20at%202.52.59%20PM.png)
+
+`http://damp-citadel-1853.herokuapp.com`
+
+![http://cl.ly/image/0O1H1o0h3c0W/Image%202014-09-23%20at%202.55.27%20PM.png](http://cl.ly/image/0O1H1o0h3c0W/Image%202014-09-23%20at%202.55.27%20PM.png)
+
+**IF after you typed `git push heroku master` you got a `Pesmission Denied (public key)` error**
+
+![http://cl.ly/image/0v1o2A1j251j/Image%202014-09-23%20at%202.43.53%20PM.png](http://cl.ly/image/0v1o2A1j251j/Image%202014-09-23%20at%202.43.53%20PM.png)
+
+
+You need to add a public key...
+
+```ruby
+heroku keys:add
+```
+
+![http://cl.ly/image/0x0P423d0d2s/Image%202014-09-23%20at%202.48.58%20PM.png](http://cl.ly/image/0x0P423d0d2s/Image%202014-09-23%20at%202.48.58%20PM.png)
+
+Then make sure you finish enabling postgresql (the database).
+
+```ruby
+heroku addons:add heroku-postgresql:hobby-dev
+heroku domains
+```
 
 [sinatra]:http://www.sinatrarb.com/
 [social wall screencast]:https://www.youtube.com/embed/0s9shJ6XCjs?vq=hd1080

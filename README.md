@@ -93,7 +93,7 @@ Once you get the Social Wall configured and running, consider building the below
   - [ ] A message becomes associated ('owned') when it is created by a logged in User
   - [ ] A message that has an 'owner' can only be edited or destroyed by its owner
 
-Not sure how to make this happen? Participate in a live or remote [CodeUnion Meetup][meetup] to learn how to build these features.  If you look at this application and find yourself struggling to understand the Ruby code, consider working on these [exercises][exercises] to build your fundamental programming skills.  Reach out to use <stuck@codeunion.io> if you have problems or need support or just want to say hi. :smile:
+Not sure how to make this happen? Participate in a live or remote [CodeUnion Meetup][meetup] to learn how to build these features.  If you look at this application and find yourself struggling to understand the Ruby code, consider working on these [exercises][exercises] to build your fundamental programming skills.  Reach out to us <stuck@codeunion.io> if you have problems or need support or just want to say hi. :smile:
 
 
 

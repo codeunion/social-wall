@@ -76,6 +76,41 @@ Run the application inside the Cloud9 IDE.
   ruby app.rb -p $PORT -o $IP
 ```
 
+## Features, Features, Features :smile:
+
+Once you get the Social Wall configured and running, consider building the below features.
+
+### v[1.0]
+
+- :heavy_check_mark: A guest may create a message
+- :heavy_check_mark: A guest may see a list of all messages
+
+### v[1.3]
+
+- [ ] A guest may click on a message to see it displayed on its own page
+- [ ] A guest may destroy a message
+- [ ] A guest may update a message
+
+### v[1.5]
+
+- [ ] A guest may 'like' a message
+- [ ] A guest may see the number of likes a message has had
+- [ ] A guest may assign a 'mood' to a message, i.e., 'happy', 'sad', 'fun'
+
+### v[1.7]
+
+- [ ] Use some html and css to make this site look better
+
+### v[2.0]
+- [ ] Users can log in
+- [ ] A message becomes associated ('owned') when it is created by a logged in User
+- [ ] A message that has an 'owner' can only be edited or destroyed by its owner
+
+
+Not sure how to make this happen? Participate in a live or remote [CodeUnion Meetup][meetup] to learn how to build these features.  If you look at this application and find yourself struggling to understand the Ruby code, consider working on these [exercises][exercises] to build your fundamental programming skills.  Reach out to us <stuck@codeunion.io> if you have problems or need support or just want to say hi. :smile:
+
+
+
 ## Deploying to Heroku
 
 [Watch the screencast][deploy to heroku]
@@ -128,3 +163,5 @@ heroku domains
 [cloud9]:https://c9.io/
 [overview screencast]:https://www.youtube.com/embed/NWorVNepf3A?vq=hd1080
 [deploy to heroku]:https://www.youtube.com/embed/wbg-u3dVYfE?vq=hd1080
+[meetup]:http://www.meetup.com/codeunion/
+[exercises]:https://github.com/codeunion/open-source-kata

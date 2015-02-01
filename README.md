@@ -164,4 +164,4 @@ heroku domains
 [overview screencast]:https://www.youtube.com/embed/NWorVNepf3A?vq=hd1080
 [deploy to heroku]:https://www.youtube.com/embed/wbg-u3dVYfE?vq=hd1080
 [meetup]:http://www.meetup.com/codeunion/
-[exercises]:https://github.com/codeunion/open-source-kata
+[exercises]:https://github.com/codeunion/ruby-exercises

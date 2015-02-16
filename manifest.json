@@ -1,0 +1,13 @@
+{
+  "category": "project",
+  "tags": [
+    "ruby",
+    "sinatra",
+    "http",
+    "persistence",
+    "html",
+    "templates-and-layouts",
+    "deployment"
+  ],
+  "notes": "Has several screencasts embedded in README. Lots of images embedded in the README make for difficult reading. Has versions. Moderately useful commit history."
+}
